@@ -71,10 +71,10 @@ class Die //models one single dice cube
     } else if (face==3) {//3 dots
       ellipse(myX+7, myY+7, 3, 3);//top left
       ellipse(myX+12.5, myY+12.5, 3, 3);//middle dot
-      ellipse(myX+18, myY+18, 3, 3);//bottom right
+      ellipse(myX+19, myY+19, 3, 3);//bottom right
       sum=sum+face;
     } else if (face==2) {//2 dots
-      ellipse(myX+18, myY+18, 3, 3);//bottom right    
+      ellipse(myX+19, myY+19, 3, 3);//bottom right    
       ellipse(myX+7, myY+7, 3, 3);//top left
       sum=sum+face;
     } else {
